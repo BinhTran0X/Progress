@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1574950176 source:/home/binhtran1832/Codeblocks/#Progress/Heap/main.cpp
+	<iostream>
+	<math.h>
+

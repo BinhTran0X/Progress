@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DSA_assignment1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DSA_assignment1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DSA_assignment1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cities.csv" />
+		<Unit filename="dbLib.cpp" />
+		<Unit filename="dbLib.h" />
+		<Unit filename="dsaLib.h" />
+		<Unit filename="lines.csv" />
+		<Unit filename="main.cpp" />
+		<Unit filename="processData.cpp" />
+		<Unit filename="processData.h" />
+		<Unit filename="station_lines.csv" />
+		<Unit filename="stations.csv" />
+		<Unit filename="systems.csv" />
+		<Unit filename="track_lines.csv" />
+		<Unit filename="tracks.csv" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
